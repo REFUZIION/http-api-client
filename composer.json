@@ -1,0 +1,21 @@
+{
+    "name": "fuziion/http-api-client",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Fuziion\\HttpApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "REFUZIION",
+            "email": "djdveenstra11@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-curl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.4"
+    }
+}
