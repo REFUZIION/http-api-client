@@ -1,6 +1,8 @@
 {
     "name": "fuziion/http-api-client",
+    "description": "This PHP library provides a simple and versatile HTTP API client for interacting with APIs. It allows you to make GET and POST requests to an API, and it also includes a data handling feature for easily working with API response data.",
     "type": "library",
+    "license": "GNU GENERAL PUBLIC LICENSE",
     "autoload": {
         "psr-4": {
             "Fuziion\\HttpApi\\": "src/"
@@ -8,8 +10,8 @@
     },
     "authors": [
         {
-            "name": "REFUZIION",
-            "email": "djdveenstra11@gmail.com"
+            "name": "Diederik Veenstra",
+            "email": "info@fuziion.nl"
         }
     ],
     "require": {
